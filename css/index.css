@@ -1,0 +1,116 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+ /* background-color: #f2f2f2;*/
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+
+}
+
+header {
+  background-color: rgb(58, 57, 57);
+  color: white;
+  padding: 20px;
+  position: relative;
+}
+
+
+.fondofoto{
+  text-align: center;
+
+}
+
+.dropdown {
+  display: inline-block;
+  position: relative;
+  width: auto;
+  text-align: center;
+  margin-left: auto;
+  margin-left: 95%;
+  margin-top: -3%;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  right: 0;
+  top: 100%;
+  width: 160px;
+  background-color: white;
+  padding: 10px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+nav {
+  text-align: center;
+  margin-top: 20px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 500px;
+  padding: 20px;
+
+}
+
+section {
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+nav:hover{
+  color: red;
+}
+
+.centro {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.reddit-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.reddit-table th, .reddit-table td {
+  padding: 8px 16px;
+  border-bottom: 1px solid rgb(204, 204, 204);
+}
+
+.reddit-table th {
+  background-color: rgb(246, 246, 246);
+  text-align: left;
+}
+
+.reddit-table tbody tr {
+  background-color: rgb(249, 249, 249);
+}
+
+.reddit-table tbody tr:hover {
+  background-color: rgb(243, 243, 243);
+}
+
+footer {
+  background-color: rgb(58, 57, 57);
+  color: white;
+  text-align: center;
+  padding: 10px;
+  width: 100%;
+}
